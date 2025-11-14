@@ -16,11 +16,11 @@ class MainApp extends StatelessWidget {
             Text('Hello World!'),
             Text('Bienvenue'),
             Container(
-                margin: EdgeInsets.all(20),
+                margin: EdgeInsets.all(30),
                 padding: EdgeInsets.all(16),
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 84, 97, 120),
-                  borderRadius: BorderRadius.circular(29),
+                  borderRadius: BorderRadius.circular(32),
                 ),
                 child: Text(
                   'Boîte stylisée avec Container',
@@ -43,10 +43,10 @@ class MainApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Icon(Icons.home, color: Colors.blue, size: 40 ),
+                  Icon(Icons.home, color: Colors.blue, size: 50 ),
                   Icon(Icons.star, color:Colors.amber, size: 40 ),
                   Icon(Icons.settings, color: Colors.grey, size: 40),
-                  Icon(Icons.favorite, color: Colors.red, size: 40),
+                  Icon(Icons.favorite, color: Colors.red, size: 50),
                 ],
               ),
               Column(
@@ -54,9 +54,9 @@ class MainApp extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text('Titre principal', style: TextStyle(fontSize: 26)),
-                  SizedBox(height: 20),
-                  Text('Sous-titre ou description', style: TextStyle(fontSize: 16)),
-                  Icon(Icons.thumb_up, color: Colors.green, size: 40),
+                  SizedBox(height: 18),
+                  Text('Sous-titre ou description', style: TextStyle(fontSize: 30)),
+                  Icon(Icons.thumb_up, color: Colors.green, size: 30),
                 ],
               ),
           ],
